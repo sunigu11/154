@@ -1,0 +1,228 @@
+.navLinks {
+  font-size: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  
+ 
+}
+ .spacer {
+  flex: 1 1 auto;
+} 
+.login,.profile,.wrap1
+{
+
+  background-color: black;
+
+
+  /* opacity: 0.8; */
+color: white;
+}
+.login:hover{
+  background-color: darkblue;
+}
+
+.profile:hover{
+  background-color: darkblue;
+}
+.wrap1:hover,.wrap2:hover{
+  background-color: darkblue;
+}
+.navbar-header
+{
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+width: 100%;
+
+
+}
+button{
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+header{
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1; 
+  top: 0;
+  font-size: 12px;
+  
+  /* margin-bottom: 65%;  */
+  
+}
+
+
+mat-toolbar{
+  background-color:black;
+ 
+  /* opacity: 0.7; */
+}
+img{
+  width:70px;
+  height:60px;
+  padding-top: 10px;
+
+}
+mat-card-actions{
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+.wrap2{
+  background-color: inherit;
+  color: white;
+}
+
+@media (max-width: 2560px){
+
+  div.icon{
+    display: none;
+  }
+}
+@media (max-width: 1024px){
+
+  div.icon{
+    display: none;
+  }
+}
+@media (max-width: 768px){
+
+  div.icon{
+    display: none;
+  }
+header{
+  width:100%;
+}
+  mat-toolbar-row {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+  }
+  img{
+    padding-top:5%;
+  }
+  .login{
+   
+    position: absolute;
+    top:35%;
+    right:0%;
+  
+  }
+  .profile{
+    float: right;
+    height: 10%;
+    width: 10%;
+    padding-top: 0%;
+    background-color: black;
+  }
+  
+    }
+    @media (max-width: 425px){
+
+
+      div.icon{
+        position: absolute;
+        top:25%;
+        right:5%;
+        display: inline;
+        color: white;
+        background: inherit;
+      }
+      mat-toolbar-row {
+        display: flex;
+        /* flex-direction: column; */
+        width: 100%;
+      }
+      img{
+        padding-top:9%;
+      }
+      .login{
+       
+       
+        display: none;
+      
+      }
+      .profile{
+        float: right;
+        height: 10%;
+        width: 10%;
+        padding-top: 0%;
+        background-color: black;
+      }
+      
+        }
+
+
+@media (max-width: 375px){
+
+
+
+mat-toolbar-row {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+}
+img{
+  padding-top:5%;
+}
+.login{
+ 
+  position: absolute;
+  top:25%;
+  right:0%;
+
+
+}
+div.icon{
+  display: inline;
+}
+.profile{
+  float: right;
+  height: 10%;
+  width: 10%;
+  padding-top: 0%;
+  background-color: black;
+}
+
+  }
+  @media (max-width: 320px){
+
+
+header{
+  width: 320px;
+}
+    mat-toolbar-row {
+      display: flex;
+      /* flex-direction: column; */
+      width: 100%;
+    }
+    img{
+      padding-top:5%;
+    }
+button.login{
+  display: none;
+}
+
+
+    /* .login{
+     
+      margin-left: 0%;
+    
+    } */
+    .profile{
+      /* float: right; */
+      height: 10%;
+      width: 10%;
+      padding-top: 0%;
+      background-color: black;
+    }
+    
+      }
+
+
+
+
+
+
+ 

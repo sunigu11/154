@@ -1,0 +1,42 @@
+
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+<header>
+  <nav>
+    <mat-toolbar>
+      <mat-toolbar-row class="navbar-header">
+        <a href="/">
+          <img src="../assets/pic1.png" class="img-rounded" alt="plasma" />
+        </a>
+        <span class="spacer"></span>
+        <div *ngIf="userLogged">
+            <button mat-raised-button class="login" routerLink="/login">
+              Login 
+            </button>
+            <div class="icon" routerLink="/login">
+            <i class="material-icons">lock</i>
+            </div>
+         
+            <!-- <button mat-raised-button (click)='logout()'>logout</button>  -->
+            
+        </div>
+        <div *ngIf="flag">
+            <button class="wrap1" mat-raised-button color="" (click)="logout()">
+              Logout
+            </button>
+        </div>
+        <div *ngIf="flag">
+            <button class="wrap2" mat-raised-button color="" (click)="profile()">
+              Profile
+            </button>
+        </div>
+        <!-- <span>
+          <button mat-raised-button (click)="profile()"><mat-icon>account_circle</mat-icon></button>
+        </span> -->
+        <!-- <button mat-raised-button class="profile" routerLink="/profile">
+          Profile -->
+        <!-- </button> -->
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </nav>
+</header>
